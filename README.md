@@ -25,9 +25,9 @@ then run `mvn clean test` to execute the tests
 if the container is already running and you want to execute the tests again run
 `docker exec -it apiTestcontainer mvn clean install
 `
-In performance/ a performance test is written  with Jmeter for GET toprated movies endpoint
+In **performance/** a performance test is written with Jmeter for GET toprated movies endpoint
 In order to run the test
-## Prerequisites 
+### Prerequisites 
 - apache Jmeter is downloaded
 - run command `jmeter -n -t getMovies.jmx -l result.csv -e -o output`
 - the report index.html will be stored in the output folder
